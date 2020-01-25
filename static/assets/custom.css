@@ -3,6 +3,10 @@ body {
   
 }
 
+.navbar-wrapper{
+  background:#fff;
+}
+
 .bg-primary{
   background:#00aeef !important;
 }
