@@ -1,6 +1,6 @@
 baseURL = "https://relaxed-kowalevski-5fd086.netlify.com"
 languageCode = "en"
-title = "Hugo Kiss theme"
+title = "Jane's Grooming"
 theme = "kiss-master"
 copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
 disqusShortname = "shortname"
@@ -11,14 +11,14 @@ enableRobotsTXT = true
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
 authorName = "Emir Ribic" # Author full name
-authorEmail = "ribice@gmail.com" # Author email
+
 
 [params.assets]
 customCSS = ["css/custom.css"]
 
 [params.info]
-adsense = "" # Adsense ID (ID only, without ca-pub-)
-enableSocial = true # Adds OpenGraph and Twitter cards
+
+
 homeTitle = "" # Title for home page
 poweredby = true # Adds powered by hugo and kiss below Copyright
 related = true # Includes related articles at the bottom of the article
@@ -37,11 +37,11 @@ pageID = ""
 page = "" # Twitter Page username. If not set, params.social.twitter will be used.
 
 [params.social]
-twitter = "ribicemir"
-github = "ribice"
-email = "ribice@gmail.com"
-linkedin = "ribice"
-facebook = "ribice"
+twitter = ""
+github = ""
+email = ""
+linkedin = ""
+facebook = ""
 instagram = ""
 codepen = ""
 rss = "index.xml" # Add this to show RSS button in social.
