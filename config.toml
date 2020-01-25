@@ -1,4 +1,4 @@
-baseURL = "https://relaxed-kowalevski-5fd086.netlify.com"
+baseURL = "https://relaxed-kowalevski-5fd086.netlify.com/"
 languageCode = "en"
 title = "Jane's Grooming"
 theme = "kiss-master"
