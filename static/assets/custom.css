@@ -3,6 +3,12 @@ body {
   
 }
 
+
+
+.slide-text{
+  position:absolute;
+  bottom: 0;
+}
 .navbar-wrapper{
   background:#fff;
 }
@@ -11,13 +17,38 @@ body {
   background:#00aeef !important;
 }
 .carousel-item{
-  height:700px;
-  background: #00aeef;
+  max-height:600px;
+  height:600px;
+  
 }
-.carousel img{
+
+img.slider-img-one.dog-2 {
+  max-height: 500px;
+  height: 100%;
+}
+
+img.slider-img-one.dog-3 {
+  max-height: 600px;
+  height: 100%;
+}
+
+
+.services-row img{
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit:cover;
+
+}
+.slider-img-one{
+position: absolute;
+bottom: 0;
+right: 20%;
+}
+
+.container-fluid.slide-content {
+  height: 100%;
+  width: 100%;
+  box-shadow: 1px 11px 20px rgba(0, 0, 0, 0.55) inset;
 }
 
 #fp-slider-wrapper {
@@ -105,7 +136,6 @@ padding-right:15px;
 }
 
 .slide-title{
-  color:#00aeef;
   font-size: 50px;
 }
 
@@ -116,7 +146,9 @@ padding-right:15px;
 
 }
 
-
+.carousel-caption {
+  color: #000;
+}
 
 .mh-950{
 height: 100%;
@@ -128,10 +160,18 @@ max-height:950px;
   max-height:475px;
 }
 
-.slide-content{
+.slide-text {
   position: absolute;
-  top: 50%;
+  bottom: 30%;
+  z-index: 5;
+  left: 20%;
+}
 
+.container-fluid.slide-content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
 }
 
 .carousel-item{
