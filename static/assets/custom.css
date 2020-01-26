@@ -32,7 +32,10 @@ img.slider-img-one.dog-3 {
   height: 100%;
 }
 
-
+.about-img{
+  height:100%;
+  max-height:400px;
+}
 .services-row img{
   height: 100%;
   width: 100%;
