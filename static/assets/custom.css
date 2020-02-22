@@ -122,6 +122,9 @@ padding-left:15px;
 padding-right:15px;
 }
 
+.pos-rel{
+  position:relative;
+}
 .button-block{
   padding:115px 60px 130px 90px;
 }
@@ -170,6 +173,12 @@ max-height:950px;
   left: 20%;
 }
 
+@media only screen and (max-width: 500px) {
+  .slide-text{
+    left: 0;
+  }
+}
+
 .container-fluid.slide-content {
   height: 100%;
   width: 100%;
@@ -180,7 +189,7 @@ max-height:950px;
 .carousel-item{
   position: relative;
 }
-textarea, input[type="text"], input[type="email"] {
+textarea, input[type="text"], input[type="email"], input[type="phone"] {
   max-width: 400px;
   width: 100%;
 }

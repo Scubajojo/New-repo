@@ -23,6 +23,16 @@
 jQuery('#slideCarousel').bind('slid', function (e) {
     console.log("slid event!");
 });
+
+if ( jQuery('#registerInterest').length > 0 ) {
+  jQuery('#registerInterest').click(function () {  
+    
+    jQuery(this).blur();
+    setTimeout( function() {
+      jQuery( "#register-anchor" ).get( 0 ).scrollIntoView( { behavior: 'smooth', block: "start", inline: "nearest" } );
+    }, 250 );
+  });
+}
       </script>
   
     </footer>
