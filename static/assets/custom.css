@@ -179,6 +179,14 @@ max-height:950px;
   }
 }
 
+#registerInterest, #registerInterest1, #registerInterest2 {
+  cursor: pointer;
+}
+
+#registerInterest:hover, #registerInterest1:hover, #registerInterest2:hover {
+  color:#00aeef;
+}
+
 .container-fluid.slide-content {
   height: 100%;
   width: 100%;
